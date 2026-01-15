@@ -1,23 +1,75 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <title>Controle de Gastos</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Planilha de Controle Financeiro</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<h1>💸 Controle de Gastos</h1>
+    <h1>📊 Controle Financeiro Anual</h1>
 
-<input type="text" id="descricao" placeholder="Descrição">
-<input type="number" id="valor" placeholder="Valor">
-<button onclick="salvarGasto()">Adicionar</button>
+    <div class="controles">
+        <label for="ano">Ano:</label>
+        <select id="ano">
+            <!-- Anos serão preenchidos pelo JavaScript -->
+        </select>
+    </div>
 
-<h2>Média dos gastos:</h2>
-<p id="media">R$ 0.00</p>
+    <!-- Tabela de Recebimentos -->
+    <h2>💰 Recebimentos</h2>
+    <div class="table-container">
+        <table id="tabela-recebimentos">
+            <thead>
+                <tr>
+                    <th>Categoria</th>
+                    <th>Jan</th><th>Fev</th><th>Mar</th><th>Abr</th>
+                    <th>Mai</th><th>Jun</th><th>Jul</th><th>Ago</th>
+                    <th>Set</th><th>Out</th><th>Nov</th><th>Dez</th>
+                    <th>Média</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- As linhas serão geradas pelo JavaScript -->
+            </tbody>
+            <tfoot>
+                <!-- O rodapé com os totais será gerado pelo JavaScript -->
+            </tfoot>
+        </table>
+    </div>
 
-<ul id="lista"></ul>
+    <!-- Tabela de Despesas -->
+    <h2>💸 Despesas</h2>
+    <div class="table-container">
+        <table id="tabela-despesas">
+            <thead>
+                <tr>
+                    <th>Categoria</th>
+                    <th>Jan</th><th>Fev</th><th>Mar</th><th>Abr</th>
+                    <th>Mai</th><th>Jun</th><th>Jul</th><th>Ago</th>
+                    <th>Set</th><th>Out</th><th>Nov</th><th>Dezembro</th>
+                    <th>Média</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- As linhas serão geradas pelo JavaScript -->
+            </tbody>
+            <tfoot>
+                <!-- O rodapé com os totais será gerado pelo JavaScript -->
+            </tfoot>
+        </table>
+    </div>
 
-<script type="module" src="script.js"></script>
+    <!-- Tabela de Resumo -->
+    <h2>📈 Resumo Anual</h2>
+    <div class="table-container">
+        <table id="tabela-resumo">
+           <!-- O resumo será gerado pelo JavaScript -->
+        </table>
+    </div>
+
+
+    <script type="module" src="script.js"></script>
 </body>
 </html>
