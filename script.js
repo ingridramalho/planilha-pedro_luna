@@ -22,7 +22,7 @@ const CATEGORIAS = {
     despesas: [
         { nome: "Aluguel", tipo: "fixo" },
         { nome: "Condomínio", tipo: "fixo" },
-        { nome: "Luz", tipo: "variavel" },
+        { nome: "Luz", tipo: "fixo" },
         { nome: "Internet", tipo: "fixo" },
         { nome: "Mercado", tipo: "variavel" },
         { nome: "Pet", tipo: "variavel" },
