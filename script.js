@@ -1,7 +1,7 @@
 
 // 🔥 Firebase - MANTENHA ESTA PARTE COMO ESTÁ
-import { initializeApp } from "https://www.gstatic.com/firebasejs/12.8.0/firebase-app.js";
-import { getFirestore, doc, getDoc, setDoc } from "https://www.gstatic.com/firebasejs/12.8.0/firebase-firestore.js";
+import { initializeApp } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-app.js";
+import { getFirestore, doc, getDoc, setDoc } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore.js";
 
 //
 // ⚠️⚠️⚠️ COPIE E COLE SUAS CREDENCIAIS DO FIREBASE AQUI ⚠️⚠️⚠️
