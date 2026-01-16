@@ -7,14 +7,14 @@ import { getFirestore, doc, getDoc, setDoc } from "https://www.gstatic.com/fireb
 // ⚠️⚠️⚠️ COPIE E COLE SUAS CREDENCIAIS DO FIREBASE AQUI ⚠️⚠️⚠️
 //
 const firebaseConfig = {
-    apiKey: "AIzaSyA58b6PUV-gD_Y1smbQvhJo1-90R6XXlmc",
+    apiKey: "SUA_API_KEY_DO_FIREBASE",
     authDomain: "planilha-pedroluna.firebaseapp.com",
     projectId: "planilha-pedroluna",
-    storageBucket: "planilha-pedroluna.firebasestorage.app",
+    storageBucket: "planilha-pedroluna.appspot.com",
     messagingSenderId: "571751777687",
-    appId: "1:571751777687:web:927a13099f4e7ec376b0d2",
-    measurementId: "G-MH1LWR0WQV"
+    appId: "1:571751777687:web:927a13099f4e7ec376b0d2"
 };
+
 
 // --- ESTRUTURA DA PLANILHA ---
 
