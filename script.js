@@ -1,15 +1,19 @@
 
 // 🔥 Firebase - MANTENHA ESTA PARTE COMO ESTÁ
-import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
-import { getFirestore, doc, getDoc, setDoc } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
+import { initializeApp } from "https://www.gstatic.com/firebasejs/12.8.0/firebase-app.js";
+import { getFirestore, doc, getDoc, setDoc } from "https://www.gstatic.com/firebasejs/12.8.0/firebase-firestore.js";
 
 //
 // ⚠️⚠️⚠️ COPIE E COLE SUAS CREDENCIAIS DO FIREBASE AQUI ⚠️⚠️⚠️
 //
 const firebaseConfig = {
-    apiKey: "AIzaSy....",
-    authDomain: "seuprojeto.firebaseapp.com",
-    projectId: "seuprojeto",
+    apiKey: "AIzaSyA58b6PUV-gD_Y1smbQvhJo1-90R6XXlmc",
+    authDomain: "planilha-pedroluna.firebaseapp.com",
+    projectId: "planilha-pedroluna",
+    storageBucket: "planilha-pedroluna.firebasestorage.app",
+    messagingSenderId: "571751777687",
+    appId: "1:571751777687:web:927a13099f4e7ec376b0d2",
+    measurementId: "G-MH1LWR0WQV"
 };
 
 // --- ESTRUTURA DA PLANILHA ---
